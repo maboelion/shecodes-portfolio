@@ -11,7 +11,7 @@
 
 body {
 	font-family: var(--heading-font);
-	background: var(--background-color);
+	background: white;
 }
 
 h1 {
@@ -52,6 +52,7 @@ footer {
 	padding: 20px;
 	border: 1px solid var(--primary-color);
 	margin: 0 auto;
+	background: var(--background-color);
 }
 
 .content img {
