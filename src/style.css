@@ -1,6 +1,44 @@
-/* font-family: 'Catamaran', sans-serif;
-font-family: 'PT Mono', monospace; */
+:root {
+	--heading-font: "Rubik", sans-serif;
+	--paragraph-font: "STIX Two Text", serif;
+	--footer-font: "PT Mono", monospace;
+	--image-border: 4px solid #496366;
+	--background-color: #f7f7e8;
+	--hero-background: #c7cfb7;
+	--primary-color: #496366;
+	--secondary-color: #9dad7f;
+}
+
+body {
+	font-family: var(--heading-font);
+	background: var(--background-color);
+}
 
 h1 {
-	font-family: "Catamaran", sans-serif;
+	font-size: 84px;
+	font-family: var(--paragraph-font);
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 36px;
+	color: var(--primary-color);
+}
+
+footer {
+	background: var(--hero-background);
+	font-family: var(--footer-font);
+	padding: 20px;
+}
+
+.hero {
+	text-align: center;
+	background: var(--hero-background);
+	padding: 100px 20px 100px 40px;
+}
+
+.hero img {
+	max-width: 200px;
+	border-radius: 100%;
+	border: var(--image-border);
 }
