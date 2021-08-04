@@ -25,21 +25,20 @@ h2 {
 	color: var(--primary-color);
 }
 
-p {
-	font-size: 22px;
-	margin: 0;
-}
-
 footer {
 	background: var(--hero-background);
 	font-family: var(--footer-font);
 	padding: 20px;
 }
 
+li {
+	margin-bottom: 10px;
+}
+
 .hero {
 	text-align: center;
 	background: var(--hero-background);
-	padding: 100px 20px 100px 40px;
+	padding: 100px 20px 40px 40px;
 }
 
 .hero img {
@@ -52,7 +51,7 @@ footer {
 	padding: 20px;
 	border: 1px solid var(--primary-color);
 	margin: 0 auto;
-	background: var(--background-color);
+	font-size: 22px;
 }
 
 .content img {
@@ -93,6 +92,12 @@ footer {
 }
 
 @media (max-width: 993px) {
+	ul {
+		padding: 0;
+	}
+	li {
+		list-style: inside;
+	}
 	.content {
 		text-align: center;
 		padding: 5px;
@@ -118,9 +123,6 @@ footer {
 		font-size: 28px;
 		margin-top: 20px;
 	}
-	p {
-		font-size: 18px;
-	}
 
 	.hero {
 		padding: 60px 10px 40px 10px;
@@ -128,6 +130,7 @@ footer {
 	.content {
 		text-align: center;
 		padding: 5px;
+		font-size: 18px;
 	}
 
 	.content-button {
