@@ -128,6 +128,15 @@ li {
 	margin-top: 20px;
 }
 
+.contact-content {
+	text-align: center;
+	font-size: 24px;
+}
+
+.contact-content h3 {
+	margin-top: 40px;
+}
+
 @media (max-width: 993px) {
 	ul {
 		padding: 0;
