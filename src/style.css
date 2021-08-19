@@ -92,18 +92,18 @@ li {
 	padding-left: 50px;
 }
 
-.about-section {
+.section-content {
 	max-width: 1400px;
 	margin: 0 auto;
 	font-size: 24px;
 }
 
-.about-section h2 {
+.section-content h2 {
 	text-align: center;
 	margin: 20px;
 }
 
-.about-section img {
+.section-content img {
 	border: var(--image-border);
 	padding: 10px;
 	background: white;
@@ -112,18 +112,18 @@ li {
 	margin: 0 auto;
 }
 
-.about-section span {
+.section-content span {
 	font-family: var(--heading-font);
 	font-weight: bold;
 	font-size: 28px;
 }
 
-.about-section .col-md-4 {
+.section-content .col-md-4 {
 	font-family: var(--heading-font);
 	font-weight: 500;
 }
 
-.about-section ul {
+.section-content ul {
 	padding-left: 100px;
 	margin-top: 20px;
 }
@@ -151,11 +151,11 @@ li {
 		padding-left: 12px;
 	}
 
-	.about-section {
+	.section-content {
 		text-align: center;
 	}
 
-	.about-section ul {
+	.section-content ul {
 		padding-left: 0;
 	}
 }
@@ -189,13 +189,13 @@ li {
 		margin: 20px 0 20px 0;
 	}
 
-	.about-section {
+	.section-content {
 		text-align: center;
 		padding: 5px;
 		font-size: 18px;
 	}
 
-	.about-section ul {
+	.section-content ul {
 		padding-left: 0;
 	}
 }
