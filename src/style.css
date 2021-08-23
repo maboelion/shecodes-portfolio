@@ -28,7 +28,7 @@ h2 {
 footer {
 	background: var(--hero-background);
 	font-family: var(--footer-font);
-	padding: 20px;
+	padding: 20px 0 10px 0;
 }
 
 li {
@@ -147,6 +147,16 @@ nav a {
 
 .contact-content h3 {
 	margin-top: 40px;
+}
+
+.footer-links a {
+	padding: 0 10px;
+	font-size: 28px;
+	color: black;
+	transition: all 100ms ease-in-out;
+}
+.footer-links a:hover {
+	color: var(--primary-color);
 }
 
 @media (max-width: 993px) {
