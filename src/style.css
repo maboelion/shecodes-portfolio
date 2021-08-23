@@ -50,7 +50,7 @@ nav a {
 .hero {
 	text-align: center;
 	background: black;
-	padding: 100px 20px 40px 40px;
+	padding: 120px 20px 40px 40px;
 	color: var(--secondary-color);
 }
 
