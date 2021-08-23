@@ -35,6 +35,18 @@ li {
 	margin-bottom: 10px;
 }
 
+nav a {
+	font-size: 18px;
+}
+
+.navbar-nav {
+	margin: 0 auto;
+}
+
+.nav-item {
+	padding: 0 20px;
+}
+
 .hero {
 	text-align: center;
 	background: black;
@@ -141,7 +153,10 @@ li {
 	ul {
 		padding: 0;
 	}
-	li {
+	.hero {
+		margin-top: 20px;
+	}
+	.content li {
 		list-style: inside;
 	}
 	.content {
@@ -173,9 +188,6 @@ li {
 	ul {
 		padding: 0;
 	}
-	li {
-		list-style: inside;
-	}
 	h1 {
 		font-size: 38px;
 	}
@@ -192,7 +204,9 @@ li {
 		padding: 5px;
 		font-size: 18px;
 	}
-
+	.content li {
+		list-style: inside;
+	}
 	.content-button {
 		text-align: center;
 		margin: 20px 0 20px 0;
