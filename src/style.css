@@ -81,6 +81,10 @@ nav a {
 	font-size: 22px;
 }
 
+.paragraph-content h3 {
+	margin: 30px 20px;
+}
+
 .index-image {
 	border: var(--custom-border);
 	padding: 10px;
