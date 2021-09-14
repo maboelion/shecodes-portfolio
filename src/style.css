@@ -139,14 +139,18 @@ nav a {
 	margin-top: 40px;
 }
 
-.footer-links a {
-	padding: 0 10px;
-	font-size: 28px;
+a {
 	color: black;
 	transition: all 100ms ease-in-out;
 }
-.footer-links a:hover {
+
+a:hover {
 	color: var(--primary-color);
+}
+
+.footer-links a {
+	padding: 0 10px;
+	font-size: 28px;
 }
 
 @media (max-width: 993px) {
