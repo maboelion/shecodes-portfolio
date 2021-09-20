@@ -30,7 +30,7 @@ h3 {
 	font-size: 28px;
 }
 
-img {
+.about-content img {
 	border: var(--custom-border);
 	padding: 10px;
 	background: white;
@@ -79,10 +79,19 @@ nav a {
 	border: 1px solid var(--primary-color);
 	margin: 0 auto;
 	font-size: 22px;
+	background: #f9ffed;
 }
 
 .paragraph-content h3 {
 	margin: 30px 20px;
+}
+
+.paragraph-content p {
+	margin-left: 20px;
+}
+
+.paragraph-content li {
+	margin-left: 20px;
 }
 
 .index-image {
@@ -150,6 +159,26 @@ a {
 
 a:hover {
 	color: var(--primary-color);
+}
+
+.my-work img {
+	border: var(--custom-border);
+	padding: 10px;
+	background: white;
+	border-radius: 8px;
+	display: block;
+	margin: 0 auto;
+}
+
+.my-work button img {
+	padding: 0;
+	background: unset;
+	border-radius: unset;
+	border: unset;
+}
+
+.cv-content img {
+	max-width: 1000px;
 }
 
 .footer-links a {
